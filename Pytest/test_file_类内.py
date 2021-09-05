@@ -28,5 +28,5 @@ class TestMethod:
     def teardown_class(self):
         print("打印在（类）执行之后  setdown_class 类内")
 
-if __name__ == "__name__":
-    pytest.main(["-s", "test_file类内.py"])
+if __name__ == '__main__':
+    pytest.main(["-s", "-v", "test_file_类内.py"])
