@@ -5,7 +5,7 @@
 时间：
 修改记录：
 """
-
+import os
 import pytest
 from Pytest.caluator import add, sub, mul, div, remiander
 
@@ -34,4 +34,5 @@ def test_reminder():
 
 
 if __name__ == '__main__':
-    pytest.main(["-v", "-s", "test_caluator.py"])
+    pytest.main(["-v", "-s", "test_caluator.py", "--alluredir", "./allure-results"])
+    os.system("allure generate ./allure-results -o ./reports")

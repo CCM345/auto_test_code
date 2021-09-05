@@ -1,0 +1,25 @@
+atomicwrites        1.4.0
+attrs               21.2.0
+colorama==0.4.4
+greenlet==1.1.1
+importlib-metadata  4.6.4
+iniconfig           1.1.1
+numpy               1.21.0
+packaging           21.0
+Pillow              8.3.1
+pip                 21.1.3
+pluggy              0.13.1
+py                  1.10.0
+Pygments            2.9.0
+pyparsing           2.4.7
+Pypubsub            4.0.3
+pytest              6.2.4
+pywin32             301
+robotframework      4.0.3
+robotframework-ride 1.7.4.2
+setuptools          57.2.0
+six                 1.16.0
+toml                0.10.2
+typing-extensions   3.10.0.0
+wxPython            4.0.7.post2
+zipp                3.5.0
